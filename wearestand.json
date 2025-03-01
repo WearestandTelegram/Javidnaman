@@ -1,0 +1,1214 @@
+{
+    "log": {
+      "level": "warn",
+      "timestamp": true
+    },
+    "dns": {
+      "servers": [
+        {
+          "tag": "dns_proxy",
+          "address": "https://1.1.1.1/dns-query",
+          "address_resolver": "dns_direct",
+          "strategy": "prefer_ipv4",
+          "detour": "تظاهرات سراسری"
+        },
+        {
+          "tag": "dns_proxy_ipv4",
+          "address": "https://1.1.1.1/dns-query",
+          "address_resolver": "dns_direct",
+          "strategy": "ipv4_only",
+          "detour": "تظاهرات سراسری"
+        },
+        {
+          "tag": "dns_direct",
+          "address": "local",
+          "strategy": "prefer_ipv4",
+          "detour": "تظاهرات سراسری"
+        },
+        {
+          "tag": "dns_block",
+          "address": "rcode://success"
+        }
+      ],
+      "rules": [
+        {
+          "outbound": "any",
+          "server": "dns_direct"
+        }
+        
+        
+      ],
+      "final": "dns_proxy",
+      "independent_cache": true
+    },
+    "ntp": {
+      "enabled": true,
+      "server": "ir.pool.ntp.org",
+      "server_port": 123,
+      "detour": "direct"
+    },
+    "inbounds": [
+      {
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 20122,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "domain_strategy": "ipv4_only",
+      "tcp_fast_open": false,
+      "tcp_multi_path": false,
+      "udp_fragment": true
+    },
+    {
+      "type": "http",
+      "listen": "127.0.0.1",
+      "listen_port": 8181,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "domain_strategy": "ipv4_only",
+      "tcp_fast_open": false,
+      "tcp_multi_path": false,
+      "udp_fragment": true
+    },
+    {
+      "type": "socks",
+      "listen": "127.0.0.1",
+      "listen_port": 8080,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "domain_strategy": "ipv4_only",
+      "tcp_fast_open": false,
+      "tcp_multi_path": false,
+      "udp_fragment": true
+    },
+    {
+      "type": "tun",
+     "address": [
+        "172.19.0.1/30",
+        "fdfe:dcba:9876::1/126"
+      ],
+      "auto_route": true,
+      "strict_route": true,
+      "endpoint_independent_nat": false,
+      "stack": "mixed",
+      "platform": {
+        "http_proxy": {
+          "enabled": true,
+          "server": "127.0.0.1",
+          "server_port": 20122
+        }
+      },
+      "sniff": true,
+      "sniff_override_destination": true,
+      "domain_strategy": "ipv4_only"
+    }
+  
+    ],
+  "outbounds": [
+{
+        "type": "selector",
+        "tag": "منصوره سگوند مهسا موگویی",
+        "outbounds": [
+          "تظاهرات سراسری",
+          "تظاهرات سراسری"
+        
+        
+        ],
+        "default": "تظاهرات سراسری",
+        "interrupt_exist_connections": true
+      },
+
+   {
+        "type": "selector",
+        "tag": "نیکا شاکرمی مهسا امینی",
+        "outbounds": [
+          "تظاهرات سراسری",
+          "تظاهرات سراسری"
+        
+        
+        ],
+        "default": "تظاهرات سراسری",
+        "interrupt_exist_connections": true
+      },
+ {
+            "tag": "رضا شاه روحت شاد",
+            "type": "selector",
+            "interrupt_exist_connections": true,
+           
+            "outbounds": [
+                "تظاهرات سراسری",
+                "صدرالدین لیتانی",
+                "مهرگان زحمتکش",
+                "عارف عاشوری",
+                "نگین صالحی",
+                "میلاد درخشان",
+                "مهران رجبی",
+                "مهرزاد بهروز",
+                "سیدمحمد حسینی",
+                "حسین جزی",
+                "اسرا پناهی",
+                "محمد عبداللهی",
+                "دانش رهنما",
+                "احمدرضا قلیجی",
+                "علی اکبر ربیعی",
+                "علی بنی اسد",
+                "علی جلیلی",
+                "رامین فاتحی",
+                "رامین کرمی",
+                "سینا ملایری",
+                "ساسان قربانی",
+                "مهدی فرحانی",
+                "اسماعیل مولودی",
+                "محمد شریعتی",
+                "افشین آشام",
+                "مائده جوانفر",
+                "شاهو خضری",
+                "کبری شیخ سقا",
+                "زانیار ابوبکری",
+                "کیوان درویشی",
+                "امین معرفت",
+                "محمد لطف‌اللهی",
+                "مهرشاد شهیدی",
+                "فریدون فرجی",
+                "فرشته احمدی",
+                "مطلب سعید پیرو",
+                "صدف موحدی",
+                "سارینا ساعدی",
+                "حنانه کیا"
+            ]
+        },
+
+        {
+            "tag": "تظاهرات سراسری",
+            "type": "urltest",
+            "url": "http://cp.cloudflare.com",
+            "interval": "10m0s",
+            "outbounds": [
+ "صدرالدین لیتانی",
+                "مهرگان زحمتکش",
+                "عارف عاشوری",
+                "نگین صالحی",
+                "میلاد درخشان",
+                "مهران رجبی",
+                "مهرزاد بهروز",
+                "سیدمحمد حسینی",
+                "حسین جزی",
+                "اسرا پناهی",
+                "محمد عبداللهی",
+                "دانش رهنما",
+                "احمدرضا قلیجی",
+                "علی اکبر ربیعی",
+                "علی بنی اسد",
+                "علی جلیلی",
+                "رامین فاتحی",
+                "رامین کرمی",
+                "سینا ملایری",
+                "ساسان قربانی",
+                "مهدی فرحانی",
+                "اسماعیل مولودی",
+                "محمد شریعتی",
+                "افشین آشام",
+                "مائده جوانفر",
+                "شاهو خضری",
+                "کبری شیخ سقا",
+                "زانیار ابوبکری",
+                "کیوان درویشی",
+                "امین معرفت",
+                "محمد لطف‌اللهی",
+                "مهرشاد شهیدی",
+                "فریدون فرجی",
+                "فرشته احمدی",
+                "مطلب سعید پیرو",
+                "صدف موحدی",
+                "سارینا ساعدی",
+                "حنانه کیا"
+                
+  
+            ]
+        },
+
+
+  {
+   "type": "vless",
+   "tag": "صدرالدین لیتانی",
+   "server": "d1ux4gaoejdvx0.cloudfront.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "d1ux4gaoejdvx0.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "d1ux4gaoejdvx0.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "مهرگان زحمتکش",
+   "server": "d2zdn4qh09dra0.cloudfront.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "d2zdn4qh09dra0.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "d2zdn4qh09dra0.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "عارف عاشوری",
+   "server": "d2li03p0wq1wyx.cloudfront.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "d2li03p0wq1wyx.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "d2li03p0wq1wyx.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "نگین صالحی",
+   "server": "d3qaqbi8ub7pb6.cloudfront.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "d3qaqbi8ub7pb6.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "d3qaqbi8ub7pb6.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "میلاد درخشان",
+   "server": "d23gkm17upsxf2.cloudfront.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "d23gkm17upsxf2.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "d23gkm17upsxf2.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "مهران رجبی",
+   "server": "d2v11gpsh3vazh.cloudfront.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "d2v11gpsh3vazh.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "d2v11gpsh3vazh.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  
+  {
+   "type": "vless",
+   "tag": "مهرزاد بهروز",
+   "server": "dnu6lzg2bk9k2.cloudfront.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "dnu6lzg2bk9k2.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "dnu6lzg2bk9k2.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "سیدمحمد حسینی",
+   "server": "d1cvgz8fqrf913.cloudfront.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "d1cvgz8fqrf913.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "d1cvgz8fqrf913.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "حسین جزی",
+   "server": "d1yxkt4ygm4tdl.cloudfront.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "d1yxkt4ygm4tdl.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "d1yxkt4ygm4tdl.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "اسرا پناهی",
+   "server": "d3mexu9bp6s8xe.cloudfront.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "d3mexu9bp6s8xe.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "d3mexu9bp6s8xe.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "محمد عبداللهی",
+   "server": "d16865sx1f3ymc.cloudfront.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "d16865sx1f3ymc.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "d16865sx1f3ymc.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "دانش رهنما",
+   "server": "d1o2rp9ezrjns9.cloudfront.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "d1o2rp9ezrjns9.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "d1o2rp9ezrjns9.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "احمدرضا قلیجی",
+   "server": "d28w7wbn23fxfl.cloudfront.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "d28w7wbn23fxfl.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "d28w7wbn23fxfl.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "علی اکبر ربیعی",
+   "server": "d3f1vbfgaq4pym.cloudfront.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "d3f1vbfgaq4pym.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "d3f1vbfgaq4pym.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "علی بنی اسد",
+   "server": "d3w61jahrr0mo.cloudfront.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "d3w61jahrr0mo.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "d3w61jahrr0mo.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "علی جلیلی",
+   "server": "d1i44foj6tp1dh.cloudfront.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "d1i44foj6tp1dh.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "d1i44foj6tp1dh.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "رامین فاتحی",
+   "server": "d3qolnww2o95nz.cloudfront.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "d3qolnww2o95nz.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "d3qolnww2o95nz.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "trojan",
+   "tag": "رامین کرمی",
+   "server": "dsstbu8i2n9zl.cloudfront.net",
+   "server_port": 443,
+   "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "dsstbu8i2n9zl.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "dsstbu8i2n9zl.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "سینا ملایری",
+   "server": "d2zhakbthdet0v.cloudfront.net",
+   "server_port": 443,
+   "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "d2zhakbthdet0v.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "d2zhakbthdet0v.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "ساسان قربانی",
+   "server": "db42fqpxjr5ia.cloudfront.net",
+   "server_port": 443,
+   "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "db42fqpxjr5ia.cloudfront.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "db42fqpxjr5ia.cloudfront.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "مهدی فرحانی",
+   "server": "bul.overtheriverandthroughthewoods.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "bul.overtheriverandthroughthewoods.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "bul.overtheriverandthroughthewoods.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "اسماعیل مولودی",
+   "server": "ca.overtheriverandthroughthewoods.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "ca.overtheriverandthroughthewoods.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "ca.overtheriverandthroughthewoods.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "محمد شریعتی",
+   "server": "ger.overtheriverandthroughthewoods.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "ger.overtheriverandthroughthewoods.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "ger.overtheriverandthroughthewoods.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "افشین آشام",
+   "server": "nl.overtheriverandthroughthewoods.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "nl.overtheriverandthroughthewoods.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "nl.overtheriverandthroughthewoods.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  
+  {
+   "type": "vless",
+   "tag": "مائده جوانفر",
+   "server": "ro.overtheriverandthroughthewoods.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "ro.overtheriverandthroughthewoods.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "ro.overtheriverandthroughthewoods.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "شاهو خضری",
+   "server": "usla.overtheriverandthroughthewoods.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "usla.overtheriverandthroughthewoods.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "usla.overtheriverandthroughthewoods.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "کبری شیخ سقا",
+   "server": "uae.overtheriverandthroughthewoods.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "uae.overtheriverandthroughthewoods.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "uae.overtheriverandthroughthewoods.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  
+  {
+   "type": "vless",
+   "tag": "زانیار ابوبکری",
+   "server": "usfl.overtheriverandthroughthewoods.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "usfl.overtheriverandthroughthewoods.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "usfl.overtheriverandthroughthewoods.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "کیوان درویشی",
+   "server": "hk.overtheriverandthroughthewoods.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "hk.overtheriverandthroughthewoods.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "hk.overtheriverandthroughthewoods.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "امین معرفت",
+   "server": "usphx.overtheriverandthroughthewoods.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "usphx.overtheriverandthroughthewoods.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "usphx.overtheriverandthroughthewoods.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "محمد لطف‌اللهی",
+   "server": "swe.overtheriverandthroughthewoods.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "swe.overtheriverandthroughthewoods.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "swe.overtheriverandthroughthewoods.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "مهرشاد شهیدی",
+   "server": "sk.overtheriverandthroughthewoods.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "sk.overtheriverandthroughthewoods.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "sk.overtheriverandthroughthewoods.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "فریدون فرجی",
+   "server": "ukman.overtheriverandthroughthewoods.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "ukman.overtheriverandthroughthewoods.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "ukman.overtheriverandthroughthewoods.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "فرشته احمدی",
+   "server": "it.overtheriverandthroughthewoods.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "it.overtheriverandthroughthewoods.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "it.overtheriverandthroughthewoods.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "مطلب سعید پیرو",
+   "server": "ken.overtheriverandthroughthewoods.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "ken.overtheriverandthroughthewoods.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "ken.overtheriverandthroughthewoods.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "صدف موحدی",
+   "server": "swiss.overtheriverandthroughthewoods.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "swiss.overtheriverandthroughthewoods.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "swiss.overtheriverandthroughthewoods.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "سارینا ساعدی",
+   "server": "aus.overtheriverandthroughthewoods.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "aus.overtheriverandthroughthewoods.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "aus.overtheriverandthroughthewoods.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "حنانه کیا",
+   "server": "tk.overtheriverandthroughthewoods.net",
+   "server_port": 443,
+   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+   "tls": {
+    "enabled": true,
+    "server_name": "tk.overtheriverandthroughthewoods.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "tk.overtheriverandthroughthewoods.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+
+{
+      "type": "direct",
+      "tag": "direct"
+    }
+  ],
+    "route": {
+     "rules": [
+      {
+        "inbound": "tun-in",
+        "action": "sniff"
+      },
+      {
+        "protocol": "dns",
+        "action": "hijack-dns"
+      },
+      {
+        "clash_mode": "Global",
+        "outbound": "رضا شاه روحت شاد"
+      },
+      {
+        "clash_mode": "Direct",
+        "outbound": "direct"
+      },
+      {
+        "network": "tcp",
+        "port": 853,
+        "action": "reject",
+        "method": "default"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "action": "reject",
+        "method": "default"
+      },
+      
+      {
+        "inbound": "tun-in",
+        "action": "resolve"
+      },
+      
+      {
+        "ip_cidr": "10.10.34.0/24",
+        "outbound": "رضا شاه روحت شاد"
+      },
+      {
+        "ip_is_private": true,
+        "outbound": "direct"
+      }
+    ],
+    "rule_set": [
+      
+   
+      
+    ],
+      "final": "تظاهرات سراسری",
+      "auto_detect_interface": true,
+      "override_android_vpn": true
+    },
+    "experimental": {
+      "cache_file": {
+        "enabled": true,
+        "path": "cache.db",
+        "store_fakeip": true
+      },
+      "clash_api": {
+        "default_mode": "@Wearestand 👈🏻کانال تلگرام"
+      }
+    }
+  }
+  
