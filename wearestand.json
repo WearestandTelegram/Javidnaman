@@ -229,101 +229,101 @@
 
 
   {
-   "type": "vless",
-   "tag": "صدرالدین لیتانی",
-   "server": "d1ux4gaoejdvx0.cloudfront.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "d1ux4gaoejdvx0.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "d1ux4gaoejdvx0.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "152.89.162.162",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "صدرالدین لیتانی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "مهرگان زحمتکش",
-   "server": "d2zdn4qh09dra0.cloudfront.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "d2zdn4qh09dra0.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "d2zdn4qh09dra0.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "152.89.162.165",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "مهرگان زحمتکش",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "عارف عاشوری",
-   "server": "d2li03p0wq1wyx.cloudfront.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "d2li03p0wq1wyx.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "d2li03p0wq1wyx.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.135.18",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "عارف عاشوری",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "نگین صالحی",
-   "server": "d3qaqbi8ub7pb6.cloudfront.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "d3qaqbi8ub7pb6.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "d3qaqbi8ub7pb6.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "152.89.162.163",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "نگین صالحی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
    "type": "vless",
    "tag": "میلاد درخشان",
@@ -349,270 +349,270 @@
    "packet_encoding": "xudp"
   },
   {
-   "type": "vless",
-   "tag": "مهران رجبی",
-   "server": "d2v11gpsh3vazh.cloudfront.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "d2v11gpsh3vazh.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "d2v11gpsh3vazh.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.135.19",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "مهران رجبی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   
   {
-   "type": "vless",
-   "tag": "مهرزاد بهروز",
-   "server": "dnu6lzg2bk9k2.cloudfront.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "dnu6lzg2bk9k2.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "dnu6lzg2bk9k2.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.135.21",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "مهرزاد بهروز",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "سیدمحمد حسینی",
-   "server": "d1cvgz8fqrf913.cloudfront.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "d1cvgz8fqrf913.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "d1cvgz8fqrf913.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "152.89.162.164",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "سیدمحمد حسینی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "حسین جزی",
-   "server": "d1yxkt4ygm4tdl.cloudfront.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "d1yxkt4ygm4tdl.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "d1yxkt4ygm4tdl.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.135.20",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "حسین جزی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "اسرا پناهی",
-   "server": "d3mexu9bp6s8xe.cloudfront.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "d3mexu9bp6s8xe.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "d3mexu9bp6s8xe.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "91.196.68.37",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "اسرا پناهی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "محمد عبداللهی",
-   "server": "d16865sx1f3ymc.cloudfront.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "d16865sx1f3ymc.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "d16865sx1f3ymc.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "91.196.68.41",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "محمد عبداللهی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "دانش رهنما",
-   "server": "d1o2rp9ezrjns9.cloudfront.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "d1o2rp9ezrjns9.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "d1o2rp9ezrjns9.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "91.196.68.25",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "دانش رهنما",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "احمدرضا قلیجی",
-   "server": "d28w7wbn23fxfl.cloudfront.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "d28w7wbn23fxfl.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "d28w7wbn23fxfl.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.181.75",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "احمدرضا قلیجی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "علی اکبر ربیعی",
-   "server": "d3f1vbfgaq4pym.cloudfront.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "d3f1vbfgaq4pym.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "d3f1vbfgaq4pym.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "45.146.221.22",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "علی اکبر ربیعی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "علی بنی اسد",
-   "server": "d3w61jahrr0mo.cloudfront.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "d3w61jahrr0mo.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "d3w61jahrr0mo.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.181.77",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "علی بنی اسد",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "علی جلیلی",
-   "server": "d1i44foj6tp1dh.cloudfront.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "d1i44foj6tp1dh.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "d1i44foj6tp1dh.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "38.54.75.90",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "علی جلیلی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
    "type": "vless",
    "tag": "رامین فاتحی",
@@ -707,126 +707,126 @@
    }
   },
   {
-   "type": "vless",
-   "tag": "مهدی فرحانی",
-   "server": "bul.overtheriverandthroughthewoods.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "bul.overtheriverandthroughthewoods.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "bul.overtheriverandthroughthewoods.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "139.84.227.242",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "مهدی فرحانی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "اسماعیل مولودی",
-   "server": "ca.overtheriverandthroughthewoods.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "ca.overtheriverandthroughthewoods.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "ca.overtheriverandthroughthewoods.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.181.74",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "اسماعیل مولودی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "محمد شریعتی",
-   "server": "ger.overtheriverandthroughthewoods.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "ger.overtheriverandthroughthewoods.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "ger.overtheriverandthroughthewoods.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.181.69",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "محمد شریعتی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "افشین آشام",
-   "server": "nl.overtheriverandthroughthewoods.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "nl.overtheriverandthroughthewoods.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "nl.overtheriverandthroughthewoods.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "45.146.221.23",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "افشین آشام",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   
   {
-   "type": "vless",
-   "tag": "مائده جوانفر",
-   "server": "ro.overtheriverandthroughthewoods.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "ro.overtheriverandthroughthewoods.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "ro.overtheriverandthroughthewoods.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.181.76",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "مائده جوانفر",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
    "type": "vless",
    "tag": "شاهو خضری",
@@ -852,295 +852,294 @@
    "packet_encoding": "xudp"
   },
   {
-   "type": "vless",
-   "tag": "کبری شیخ سقا",
-   "server": "uae.overtheriverandthroughthewoods.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "uae.overtheriverandthroughthewoods.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "uae.overtheriverandthroughthewoods.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.181.68",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "کبری شیخ سقا",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   
   {
-   "type": "vless",
-   "tag": "زانیار ابوبکری",
-   "server": "usfl.overtheriverandthroughthewoods.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "usfl.overtheriverandthroughthewoods.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "usfl.overtheriverandthroughthewoods.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.181.66",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "زانیار ابوبکری",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "کیوان درویشی",
-   "server": "hk.overtheriverandthroughthewoods.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "hk.overtheriverandthroughthewoods.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "hk.overtheriverandthroughthewoods.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.181.67",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "کیوان درویشی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "امین معرفت",
-   "server": "usphx.overtheriverandthroughthewoods.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "usphx.overtheriverandthroughthewoods.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "usphx.overtheriverandthroughthewoods.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "45.146.221.24",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "امین معرفت",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "محمد لطف‌اللهی",
-   "server": "swe.overtheriverandthroughthewoods.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "swe.overtheriverandthroughthewoods.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "swe.overtheriverandthroughthewoods.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "178.73.220.157",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "محمد لطف‌اللهی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "مهرشاد شهیدی",
-   "server": "sk.overtheriverandthroughthewoods.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "sk.overtheriverandthroughthewoods.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "sk.overtheriverandthroughthewoods.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "46.246.1.140",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "مهرشاد شهیدی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "فریدون فرجی",
-   "server": "ukman.overtheriverandthroughthewoods.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "ukman.overtheriverandthroughthewoods.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "ukman.overtheriverandthroughthewoods.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "46.246.1.14",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "فریدون فرجی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "فرشته احمدی",
-   "server": "it.overtheriverandthroughthewoods.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "it.overtheriverandthroughthewoods.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "it.overtheriverandthroughthewoods.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "185.237.97.215",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "فرشته احمدی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "مطلب سعید پیرو",
-   "server": "ken.overtheriverandthroughthewoods.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "ken.overtheriverandthroughthewoods.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "ken.overtheriverandthroughthewoods.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "199.229.250.50",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "مطلب سعید پیرو",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "صدف موحدی",
-   "server": "swiss.overtheriverandthroughthewoods.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "swiss.overtheriverandthroughthewoods.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "swiss.overtheriverandthroughthewoods.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "199.229.250.110",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "صدف موحدی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "سارینا ساعدی",
-   "server": "aus.overtheriverandthroughthewoods.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "aus.overtheriverandthroughthewoods.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "aus.overtheriverandthroughthewoods.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "139.84.230.109",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "سارینا ساعدی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "حنانه کیا",
-   "server": "tk.overtheriverandthroughthewoods.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "tk.overtheriverandthroughthewoods.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "tk.overtheriverandthroughthewoods.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
-
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "67.213.221.13",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "حنانه کیا",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
 {
       "type": "direct",
       "tag": "direct"
