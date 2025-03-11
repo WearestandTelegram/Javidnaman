@@ -107,7 +107,7 @@
   "outbounds": [
 {
         "type": "selector",
-        "tag": "منصوره سگوند مهسا موگویی",
+        "tag": "ابول کور کور ایذه",
         "outbounds": [
           "تظاهرات سراسری",
           "تظاهرات سراسری"
@@ -120,7 +120,7 @@
 
    {
         "type": "selector",
-        "tag": "نیکا شاکرمی مهسا امینی",
+        "tag": "ابول کور کور ایذه",
         "outbounds": [
           "تظاهرات سراسری",
           "تظاهرات سراسری"
@@ -137,7 +137,7 @@
            
             "outbounds": [
                 "تظاهرات سراسری",
-                "صدرالدین لیتانی",
+ "صدرالدین لیتانی",
                 "مهرگان زحمتکش",
                 "عارف عاشوری",
                 "نگین صالحی",
@@ -174,7 +174,42 @@
                 "مطلب سعید پیرو",
                 "صدف موحدی",
                 "سارینا ساعدی",
-                "حنانه کیا"
+                "حنانه کیا",
+"محمدصدیق نارویی",
+"سدیس کشانی",
+"عبدالله نارویی",
+"موسی آنشینی",
+"ابراهیم گرگیج",
+"ابوبکر علیزهی",
+"محراب دولت‌ پناه",
+"امیرمهدی فرخی‌پور",
+"محسن محمدی کوچکسرایی",
+"محمد زارعی",
+"ستایش شریفی نیا",
+"رضا رسایی",
+"مجید کاظمی",
+"‌محبت مظفری",
+"مریم آروین",
+"نرگس خرمی فرد",
+"امیر حسین شمس",
+"ابوالفضل آدینه زاده",
+"امیرجواد اسعد زاده",
+"علی مظفری",
+"مهدی ببرنژاد",
+"‌حسن ناصری خور",
+"محمد قاسمی",
+"مجیدرضا رهنورد",
+"سعید اسعدی",
+"شعیب حیدری",
+"آرش پهلوان",
+"مسعود بلوچ",
+"امیر نظافت",
+"آتوسا استادی",
+"محمد خلیلی",
+"علی اکبر حیدرزاده",
+"امیرمهدی حسنی",
+"امیرحسین مصدق شریف پور",
+"مریم غواصی"
             ]
         },
 
@@ -221,7 +256,42 @@
                 "مطلب سعید پیرو",
                 "صدف موحدی",
                 "سارینا ساعدی",
-                "حنانه کیا"
+                "حنانه کیا",
+"محمدصدیق نارویی",
+"سدیس کشانی",
+"عبدالله نارویی",
+"موسی آنشینی",
+"ابراهیم گرگیج",
+"ابوبکر علیزهی",
+"محراب دولت‌ پناه",
+"امیرمهدی فرخی‌پور",
+"محسن محمدی کوچکسرایی",
+"محمد زارعی",
+"ستایش شریفی نیا",
+"رضا رسایی",
+"مجید کاظمی",
+"‌محبت مظفری",
+"مریم آروین",
+"نرگس خرمی فرد",
+"امیر حسین شمس",
+"ابوالفضل آدینه زاده",
+"امیرجواد اسعد زاده",
+"علی مظفری",
+"مهدی ببرنژاد",
+"‌حسن ناصری خور",
+"محمد قاسمی",
+"مجیدرضا رهنورد",
+"سعید اسعدی",
+"شعیب حیدری",
+"آرش پهلوان",
+"مسعود بلوچ",
+"امیر نظافت",
+"آتوسا استادی",
+"محمد خلیلی",
+"علی اکبر حیدرزاده",
+"امیرمهدی حسنی",
+"امیرحسین مصدق شریف پور",
+"مریم غواصی"
                 
   
             ]
@@ -1128,6 +1198,871 @@
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "حنانه کیا",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.36.101",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "محمدصدیق نارویی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+  {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.36.99",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "سدیس کشانی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+  {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.36.117",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "عبدالله نارویی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.36.116",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "موسی آنشینی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+  {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.36.100",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "ابراهیم گرگیج",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+  {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.36.115",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "ابوبکر علیزهی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.36.114",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "محراب دولت‌ پناه",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+  {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "146.70.36.98",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "امیرمهدی فرخی‌پور",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "37.0.12.103",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "محسن محمدی کوچکسرایی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+  {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "37.0.12.78",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "محمد زارعی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.230",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "ستایش شریفی نیا",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.236",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "رضا رسایی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+  {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.245",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "مجید کاظمی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.235",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "‌محبت مظفری",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.250",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "مریم آروین",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+  {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.234",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "نرگس خرمی فرد",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.243",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "امیر حسین شمس",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.226",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "ابوالفضل آدینه زاده",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+  {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.244",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "امیرجواد اسعد زاده",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.232",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "امیرجواد اسعد زاده",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.233",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "علی مظفری",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+  {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.251",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "مهدی ببرنژاد",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.252",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "‌حسن ناصری خور",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.241",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "محمد قاسمی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+  {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.228",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "مجیدرضا رهنورد",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.247",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "سعید اسعدی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.253",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "شعیب حیدری",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+  {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.246",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "آرش پهلوان",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+  {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.238",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "مسعود بلوچ",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.227",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "امیر نظافت",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.231",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "آتوسا استادی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+  {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.240",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "محمد خلیلی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+  {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.249",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "علی اکبر حیدرزاده",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.237",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "امیرمهدی حسنی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+{
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.242",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "امیرحسین مصدق شریف پور",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
+  {
+            "headers": {
+                "Host": [
+                    "marilynmanson.link"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "217.138.202.248",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "مریم غواصی",
             "tls": {
                 "alpn": [
                     "h2,http/1.1"
