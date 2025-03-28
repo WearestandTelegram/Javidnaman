@@ -107,7 +107,7 @@
   "outbounds": [
 {
         "type": "selector",
-        "tag": "ابول کور کور ایذه",
+        "tag": "منصوره سگوند مهسا موگویی",
         "outbounds": [
           "تظاهرات سراسری",
           "تظاهرات سراسری"
@@ -120,7 +120,7 @@
 
    {
         "type": "selector",
-        "tag": "ابول کور کور ایذه",
+        "tag": "نیکا شاکرمی مهسا امینی",
         "outbounds": [
           "تظاهرات سراسری",
           "تظاهرات سراسری"
@@ -395,29 +395,29 @@
             "username": "gentowh@gmail.com"
         },
   {
-   "type": "vless",
-   "tag": "میلاد درخشان",
-   "server": "d23gkm17upsxf2.cloudfront.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "d23gkm17upsxf2.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "d23gkm17upsxf2.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "stream.meet.google.com"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "37.120.145.58",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "میلاد درخشان",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
             "headers": {
                 "Host": [
@@ -523,7 +523,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "91.196.68.37",
+            "server": "37.120.145.59",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "اسرا پناهی",
@@ -547,7 +547,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "91.196.68.41",
+            "server": "146.70.169.226",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "محمد عبداللهی",
@@ -571,7 +571,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "91.196.68.25",
+            "server": "146.70.169.229",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "دانش رهنما",
@@ -619,7 +619,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "45.146.221.22",
+            "server": "37.120.145.62",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "علی اکبر ربیعی",
@@ -683,99 +683,102 @@
             "type": "http",
             "username": "gentowh@gmail.com"
         },
+    {
+            "headers": {
+                "Host": [
+                    "stream.meet.google.com"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "37.120.145.62",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "رامین فاتحی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "vless",
-   "tag": "رامین فاتحی",
-   "server": "d3qolnww2o95nz.cloudfront.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "d3qolnww2o95nz.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "d3qolnww2o95nz.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "stream.meet.google.com"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "37.120.145.60",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "رامین کرمی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "trojan",
-   "tag": "رامین کرمی",
-   "server": "dsstbu8i2n9zl.cloudfront.net",
-   "server_port": 443,
-   "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "dsstbu8i2n9zl.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "dsstbu8i2n9zl.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   }
-  },
+            "headers": {
+                "Host": [
+                    "stream.meet.google.com"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "45.12.221.187",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "سینا ملایری",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
-   "type": "trojan",
-   "tag": "سینا ملایری",
-   "server": "d2zhakbthdet0v.cloudfront.net",
-   "server_port": 443,
-   "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "d2zhakbthdet0v.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "d2zhakbthdet0v.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "ساسان قربانی",
-   "server": "db42fqpxjr5ia.cloudfront.net",
-   "server_port": 443,
-   "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "db42fqpxjr5ia.cloudfront.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "db42fqpxjr5ia.cloudfront.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   }
-  },
+            "headers": {
+                "Host": [
+                    "stream.meet.google.com"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "45.12.221.187",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "ساسان قربانی",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
             "headers": {
                 "Host": [
@@ -856,7 +859,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "45.146.221.23",
+            "server": "37.120.145.61",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "افشین آشام",
@@ -898,29 +901,29 @@
             "username": "gentowh@gmail.com"
         },
   {
-   "type": "vless",
-   "tag": "شاهو خضری",
-   "server": "usla.overtheriverandthroughthewoods.net",
-   "server_port": 443,
-   "uuid": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-   "tls": {
-    "enabled": true,
-    "server_name": "usla.overtheriverandthroughthewoods.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "usla.overtheriverandthroughthewoods.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
+            "headers": {
+                "Host": [
+                    "stream.meet.google.com"
+                ]
+            },
+            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
+            "path": "",
+            "server": "45.12.221.188",
+            "server_port": 7070,
+            "domain_strategy": "",
+            "tag": "شاهو خضری",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": true,
+                "insecure": true,
+                "server_name": "google.com"
+            },
+            "type": "http",
+            "username": "gentowh@gmail.com"
+        },
   {
             "headers": {
                 "Host": [
@@ -1002,7 +1005,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "45.146.221.24",
+            "server": "45.12.221.186",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "امین معرفت",
@@ -1026,7 +1029,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "178.73.220.157",
+            "server": "45.12.221.190",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "محمد لطف‌اللهی",
@@ -1050,7 +1053,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "46.246.1.140",
+            "server": "45.12.221.189",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "مهرشاد شهیدی",
@@ -1074,7 +1077,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "46.246.1.14",
+            "server": "146.70.182.187",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "فریدون فرجی",
@@ -1122,7 +1125,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "199.229.250.50",
+            "server": "146.70.182.178",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "مطلب سعید پیرو",
@@ -1146,7 +1149,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "199.229.250.110",
+            "server": "146.70.182.180",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "صدف موحدی",
@@ -1170,7 +1173,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "139.84.230.109",
+            "server": "146.70.182.180",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "سارینا ساعدی",
@@ -1194,7 +1197,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "67.213.221.13",
+            "server": "146.70.182.188",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "حنانه کیا",
@@ -1459,7 +1462,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "217.138.202.230",
+            "server": "146.70.182.189",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "ستایش شریفی نیا",
@@ -1507,7 +1510,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "217.138.202.245",
+            "server": "146.70.182.186",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "مجید کاظمی",
@@ -1531,7 +1534,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "217.138.202.235",
+            "server": "146.70.182.179",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "‌محبت مظفری",
@@ -1627,7 +1630,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "217.138.202.226",
+            "server": "146.70.182.181",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "ابوالفضل آدینه زاده",
@@ -1651,7 +1654,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "217.138.202.244",
+            "server": "185.125.169.171",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "امیرجواد اسعد زاده",
@@ -1675,31 +1678,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "217.138.202.232",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "امیرجواد اسعد زاده",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "gentowh@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "stream.meet.google.com"
-                ]
-            },
-            "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
-            "path": "",
-            "server": "217.138.202.233",
+            "server": "146.70.192.205",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "علی مظفری",
@@ -1939,7 +1918,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "217.138.202.231",
+            "server": "146.70.192.202",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "آتوسا استادی",
@@ -1987,7 +1966,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "217.138.202.249",
+            "server": "146.70.192.203",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "علی اکبر حیدرزاده",
@@ -2059,7 +2038,7 @@
             },
             "password": "81555DCC-7FDA-7D52-C831-4AEB07AA16C4",
             "path": "",
-            "server": "217.138.202.248",
+            "server": "146.70.192.204",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "مریم غواصی",
