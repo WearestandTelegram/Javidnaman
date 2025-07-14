@@ -7,23 +7,23 @@
       "servers": [
         {
           "tag": "dns_proxy",
-          "address": "https://1.1.1.1/dns-query",
+          "address": "tcp://8.8.8.8",
           "address_resolver": "dns_direct",
           "strategy": "prefer_ipv4",
-          "detour": "تظاهرات سراسری"
+          "detour": "زن زندگی آزادی"
         },
         {
           "tag": "dns_proxy_ipv4",
-          "address": "https://1.1.1.1/dns-query",
+          "address": "tcp://8.8.8.8",
           "address_resolver": "dns_direct",
           "strategy": "ipv4_only",
-          "detour": "تظاهرات سراسری"
+          "detour": "زن زندگی آزادی"
         },
         {
           "tag": "dns_direct",
           "address": "local",
           "strategy": "prefer_ipv4",
-          "detour": "تظاهرات سراسری"
+          "detour": "زن زندگی آزادی"
         },
         {
           "tag": "dns_block",
@@ -105,16 +105,17 @@
   
     ],
   "outbounds": [
-{
+        
+        {
         "type": "selector",
         "tag": "منصوره سگوند مهسا موگویی",
         "outbounds": [
-          "تظاهرات سراسری",
-          "تظاهرات سراسری"
+          "ابول کور کور ایذه",
+          "ابول کور کور ایذه"
         
         
         ],
-        "default": "تظاهرات سراسری",
+        "default": "ابول کور کور ایذه",
         "interrupt_exist_connections": true
       },
 
@@ -122,22 +123,21 @@
         "type": "selector",
         "tag": "نیکا شاکرمی مهسا امینی",
         "outbounds": [
-          "تظاهرات سراسری",
-          "تظاهرات سراسری"
+          "ابول کور کور ایذه",
+          "ابول کور کور ایذه"
         
         
         ],
-        "default": "تظاهرات سراسری",
+        "default": "ابول کور کور ایذه",
         "interrupt_exist_connections": true
       },
- {
-            "tag": "رضا شاه روحت شاد",
+
+   {
+            "tag": "زن زندگی آزادی",
             "type": "selector",
-            "interrupt_exist_connections": true,
-           
             "outbounds": [
-                "تظاهرات سراسری",
- "صدرالدین لیتانی",
+                "ابول کور کور ایذه",
+"صدرالدین لیتانی",
                 "مهرگان زحمتکش",
                 "عارف عاشوری",
                 "نگین صالحی",
@@ -150,163 +150,60 @@
                 "محمد عبداللهی",
                 "دانش رهنما",
                 "احمدرضا قلیجی",
-                "علی اکبر ربیعی",
-                "علی بنی اسد",
-                "علی جلیلی",
-                "رامین فاتحی",
-                "رامین کرمی",
-                "سینا ملایری",
-                "ساسان قربانی",
-                "مهدی فرحانی",
-                "اسماعیل مولودی",
-                "محمد شریعتی",
-                "افشین آشام",
-                "مائده جوانفر",
-                "شاهو خضری",
-                "کبری شیخ سقا",
-                "زانیار ابوبکری",
-                "کیوان درویشی",
-                "امین معرفت",
-                "محمد لطف‌اللهی",
-                "مهرشاد شهیدی",
-                "فریدون فرجی",
-                "فرشته احمدی",
-                "مطلب سعید پیرو",
-                "صدف موحدی",
-                "سارینا ساعدی",
-                "حنانه کیا",
-"محمدصدیق نارویی",
-"سدیس کشانی",
-"عبدالله نارویی",
-"موسی آنشینی",
-"ابراهیم گرگیج",
-"ابوبکر علیزهی",
-"محراب دولت‌ پناه",
-"امیرمهدی فرخی‌پور",
-"محسن محمدی کوچکسرایی",
-"محمد زارعی",
-"ستایش شریفی نیا",
-"رضا رسایی",
-"مجید کاظمی",
-"‌محبت مظفری",
-"مریم آروین",
-"نرگس خرمی فرد",
-"امیر حسین شمس",
-"ابوالفضل آدینه زاده",
-"امیرجواد اسعد زاده",
-"علی مظفری",
-"مهدی ببرنژاد",
-"‌حسن ناصری خور",
-"محمد قاسمی",
-"مجیدرضا رهنورد",
-"سعید اسعدی",
-"شعیب حیدری",
-"آرش پهلوان",
-"مسعود بلوچ",
-"امیر نظافت",
-"آتوسا استادی",
-"محمد خلیلی",
-"علی اکبر حیدرزاده",
-"امیرمهدی حسنی",
-"امیرحسین مصدق شریف پور",
-"مریم غواصی"
+                "علی اکبر ربیعی"
+            
+            
+         
+
+
             ]
         },
-
-        {
-            "tag": "تظاهرات سراسری",
-            "type": "urltest",
-            "url": "http://cp.cloudflare.com",
-            "interval": "10m0s",
-            "outbounds": [
- "صدرالدین لیتانی",
-                "مهرگان زحمتکش",
-                "عارف عاشوری",
-                "نگین صالحی",
-                "میلاد درخشان",
-                "مهران رجبی",
-                "مهرزاد بهروز",
-                "سیدمحمد حسینی",
-                "حسین جزی",
-                "اسرا پناهی",
-                "محمد عبداللهی",
-                "دانش رهنما",
-                "احمدرضا قلیجی",
-                "علی اکبر ربیعی",
-                "علی بنی اسد",
-                "علی جلیلی",
-                "رامین فاتحی",
-                "رامین کرمی",
-                "سینا ملایری",
-                "ساسان قربانی",
-                "مهدی فرحانی",
-                "اسماعیل مولودی",
-                "محمد شریعتی",
-                "افشین آشام",
-                "مائده جوانفر",
-                "شاهو خضری",
-                "کبری شیخ سقا",
-                "زانیار ابوبکری",
-                "کیوان درویشی",
-                "امین معرفت",
-                "محمد لطف‌اللهی",
-                "مهرشاد شهیدی",
-                "فریدون فرجی",
-                "فرشته احمدی",
-                "مطلب سعید پیرو",
-                "صدف موحدی",
-                "سارینا ساعدی",
-                "حنانه کیا",
-"محمدصدیق نارویی",
-"سدیس کشانی",
-"عبدالله نارویی",
-"موسی آنشینی",
-"ابراهیم گرگیج",
-"ابوبکر علیزهی",
-"محراب دولت‌ پناه",
-"امیرمهدی فرخی‌پور",
-"محسن محمدی کوچکسرایی",
-"محمد زارعی",
-"ستایش شریفی نیا",
-"رضا رسایی",
-"مجید کاظمی",
-"‌محبت مظفری",
-"مریم آروین",
-"نرگس خرمی فرد",
-"امیر حسین شمس",
-"ابوالفضل آدینه زاده",
-"امیرجواد اسعد زاده",
-"علی مظفری",
-"مهدی ببرنژاد",
-"‌حسن ناصری خور",
-"محمد قاسمی",
-"مجیدرضا رهنورد",
-"سعید اسعدی",
-"شعیب حیدری",
-"آرش پهلوان",
-"مسعود بلوچ",
-"امیر نظافت",
-"آتوسا استادی",
-"محمد خلیلی",
-"علی اکبر حیدرزاده",
-"امیرمهدی حسنی",
-"امیرحسین مصدق شریف پور",
-"مریم غواصی"
-                
   
-            ]
-        },
+{
+            "tag": "ابول کور کور ایذه",
+            "type": "urltest",
+            "outbounds": [
+         
+"صدرالدین لیتانی",
+                "مهرگان زحمتکش",
+                "عارف عاشوری",
+                "نگین صالحی",
+                "میلاد درخشان",
+                "مهران رجبی",
+                "مهرزاد بهروز",
+                "سیدمحمد حسینی",
+                "حسین جزی",
+                "اسرا پناهی",
+                "محمد عبداللهی",
+                "دانش رهنما",
+                "احمدرضا قلیجی",
+                "علی اکبر ربیعی"
+            
+           
+ 
 
+                
+              
+                
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "5m",
+      "tolerance": 50
+    },
+   
+           
+        
+       
 
-  {
+                        {
             "headers": {
                 "Host": [
-                    "https://stream.meet.google.com"
+                    "stream.meet.google.com"
                 ]
             },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
+            "password": "563B4029-2161-7E31-FA35-1B21441AE537",
             "path": "",
-            "server": "152.89.162.162",
+            "server": "185.125.169.171",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "صدرالدین لیتانی",
@@ -317,20 +214,20 @@
                 "disable_sni": false,
                 "enabled": true,
                 "insecure": true,
-                "server_name": "google.com"
+                "server_name": "scitopia.org"
             },
             "type": "http",
-            "username": "wearestandtelegram@gmail.com"
+            "username": "wearestandtelegram@gmail.com1"
         },
-  {
+{
             "headers": {
                 "Host": [
-                    "https://stream.meet.google.com"
+                    "stream.meet.google.com"
                 ]
             },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
+            "password": "563B4029-2161-7E31-FA35-1B21441AE537",
             "path": "",
-            "server": "152.89.162.165",
+            "server": "37.120.145.62",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "مهرگان زحمتکش",
@@ -341,20 +238,21 @@
                 "disable_sni": false,
                 "enabled": true,
                 "insecure": true,
-                "server_name": "google.com"
+                "server_name": "scitopia.org"
             },
             "type": "http",
-            "username": "wearestandtelegram@gmail.com"
+            "username": "wearestandtelegram@gmail.com1"
         },
-  {
+
+{
             "headers": {
                 "Host": [
-                    "https://stream.meet.google.com"
+                    "stream.meet.google.com"
                 ]
             },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
+            "password": "563B4029-2161-7E31-FA35-1B21441AE537",
             "path": "",
-            "server": "146.70.135.18",
+            "server": "146.70.192.203",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "عارف عاشوری",
@@ -365,20 +263,20 @@
                 "disable_sni": false,
                 "enabled": true,
                 "insecure": true,
-                "server_name": "google.com"
+                "server_name": "scitopia.org"
             },
             "type": "http",
-            "username": "wearestandtelegram@gmail.com"
+            "username": "wearestandtelegram@gmail.com1"
         },
-  {
+{
             "headers": {
                 "Host": [
-                    "https://stream.meet.google.com"
+                    "stream.meet.google.com"
                 ]
             },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
+            "password": "563B4029-2161-7E31-FA35-1B21441AE537",
             "path": "",
-            "server": "152.89.162.163",
+            "server": "146.70.192.202",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "نگین صالحی",
@@ -389,20 +287,20 @@
                 "disable_sni": false,
                 "enabled": true,
                 "insecure": true,
-                "server_name": "google.com"
+                "server_name": "scitopia.org"
             },
             "type": "http",
-            "username": "wearestandtelegram@gmail.com"
+            "username": "wearestandtelegram@gmail.com1"
         },
-  {
+{
             "headers": {
                 "Host": [
-                    "https://stream.meet.google.com"
+                    "stream.meet.google.com"
                 ]
             },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
+            "password": "563B4029-2161-7E31-FA35-1B21441AE537",
             "path": "",
-            "server": "37.120.145.58",
+            "server": "146.70.181.66",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "میلاد درخشان",
@@ -413,21 +311,21 @@
                 "disable_sni": false,
                 "enabled": true,
                 "insecure": true,
-                "server_name": "google.com"
+                "server_name": "scitopia.org"
             },
             "type": "http",
-            "username": "wearestandtelegram@gmail.com"
+            "username": "wearestandtelegram@gmail.com1"
         },
-  {
+{
             "headers": {
                 "Host": [
-                    "https://stream.meet.google.com"
+                    "stream.meet.google.com"
                 ]
             },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
+            "password": "563B4029-2161-7E31-FA35-1B21441AE537",
             "path": "",
-            "server": "146.70.135.19",
-            "server_port": 7070,
+            "server": "ru.stealthtunnel.net",
+            "server_port": 443,
             "domain_strategy": "",
             "tag": "مهران رجبی",
             "tls": {
@@ -437,21 +335,20 @@
                 "disable_sni": false,
                 "enabled": true,
                 "insecure": true,
-                "server_name": "google.com"
+                "server_name": "scitopia.org"
             },
             "type": "http",
-            "username": "wearestandtelegram@gmail.com"
+            "username": "wearestandtelegram@gmail.com1"
         },
-  
-  {
+{
             "headers": {
                 "Host": [
-                    "https://stream.meet.google.com"
+                    "stream.meet.google.com"
                 ]
             },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
+            "password": "563B4029-2161-7E31-FA35-1B21441AE537",
             "path": "",
-            "server": "146.70.135.21",
+            "server": "185.125.169.38",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "مهرزاد بهروز",
@@ -462,20 +359,20 @@
                 "disable_sni": false,
                 "enabled": true,
                 "insecure": true,
-                "server_name": "google.com"
+                "server_name": "scitopia.org"
             },
             "type": "http",
-            "username": "wearestandtelegram@gmail.com"
+            "username": "wearestandtelegram@gmail.com1"
         },
-  {
+{
             "headers": {
                 "Host": [
-                    "https://stream.meet.google.com"
+                    "stream.meet.google.com"
                 ]
             },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
+            "password": "563B4029-2161-7E31-FA35-1B21441AE537",
             "path": "",
-            "server": "152.89.162.164",
+            "server": "185.125.169.145",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "سیدمحمد حسینی",
@@ -486,20 +383,20 @@
                 "disable_sni": false,
                 "enabled": true,
                 "insecure": true,
-                "server_name": "google.com"
+                "server_name": "scitopia.org"
             },
             "type": "http",
-            "username": "wearestandtelegram@gmail.com"
+            "username": "wearestandtelegram@gmail.com1"
         },
-  {
+{
             "headers": {
                 "Host": [
-                    "https://stream.meet.google.com"
+                    "stream.meet.google.com"
                 ]
             },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
+            "password": "563B4029-2161-7E31-FA35-1B21441AE537",
             "path": "",
-            "server": "146.70.135.20",
+            "server": "185.125.169.139",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "حسین جزی",
@@ -510,20 +407,20 @@
                 "disable_sni": false,
                 "enabled": true,
                 "insecure": true,
-                "server_name": "google.com"
+                "server_name": "scitopia.org"
             },
             "type": "http",
-            "username": "wearestandtelegram@gmail.com"
+            "username": "wearestandtelegram@gmail.com1"
         },
-  {
+{
             "headers": {
                 "Host": [
-                    "https://stream.meet.google.com"
+                    "stream.meet.google.com"
                 ]
             },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
+            "password": "563B4029-2161-7E31-FA35-1B21441AE537",
             "path": "",
-            "server": "37.120.145.59",
+            "server": "185.125.169.147",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "اسرا پناهی",
@@ -534,20 +431,20 @@
                 "disable_sni": false,
                 "enabled": true,
                 "insecure": true,
-                "server_name": "google.com"
+                "server_name": "scitopia.org"
             },
             "type": "http",
-            "username": "wearestandtelegram@gmail.com"
+            "username": "wearestandtelegram@gmail.com1"
         },
-  {
+{
             "headers": {
                 "Host": [
-                    "https://stream.meet.google.com"
+                    "stream.meet.google.com"
                 ]
             },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
+            "password": "563B4029-2161-7E31-FA35-1B21441AE537",
             "path": "",
-            "server": "146.70.169.226",
+            "server": "185.125.169.118",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "محمد عبداللهی",
@@ -558,20 +455,20 @@
                 "disable_sni": false,
                 "enabled": true,
                 "insecure": true,
-                "server_name": "google.com"
+                "server_name": "scitopia.org"
             },
             "type": "http",
-            "username": "wearestandtelegram@gmail.com"
+            "username": "wearestandtelegram@gmail.com1"
         },
-  {
+{
             "headers": {
                 "Host": [
-                    "https://stream.meet.google.com"
+                    "stream.meet.google.com"
                 ]
             },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
+            "password": "563B4029-2161-7E31-FA35-1B21441AE537",
             "path": "",
-            "server": "146.70.169.229",
+            "server": "185.125.169.117",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "دانش رهنما",
@@ -582,20 +479,20 @@
                 "disable_sni": false,
                 "enabled": true,
                 "insecure": true,
-                "server_name": "google.com"
+                "server_name": "scitopia.org"
             },
             "type": "http",
-            "username": "wearestandtelegram@gmail.com"
+            "username": "wearestandtelegram@gmail.com1"
         },
-  {
+{
             "headers": {
                 "Host": [
-                    "https://stream.meet.google.com"
+                    "stream.meet.google.com"
                 ]
             },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
+            "password": "563B4029-2161-7E31-FA35-1B21441AE537",
             "path": "",
-            "server": "146.70.181.75",
+            "server": "185.125.169.71",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "احمدرضا قلیجی",
@@ -606,20 +503,20 @@
                 "disable_sni": false,
                 "enabled": true,
                 "insecure": true,
-                "server_name": "google.com"
+                "server_name": "scitopia.org"
             },
             "type": "http",
-            "username": "wearestandtelegram@gmail.com"
+            "username": "wearestandtelegram@gmail.com1"
         },
-  {
+{
             "headers": {
                 "Host": [
-                    "https://stream.meet.google.com"
+                    "stream.meet.google.com"
                 ]
             },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
+            "password": "563B4029-2161-7E31-FA35-1B21441AE537",
             "path": "",
-            "server": "37.120.145.62",
+            "server": "185.125.169.70",
             "server_port": 7070,
             "domain_strategy": "",
             "tag": "علی اکبر ربیعی",
@@ -630,1437 +527,19 @@
                 "disable_sni": false,
                 "enabled": true,
                 "insecure": true,
-                "server_name": "google.com"
+                "server_name": "scitopia.org"
             },
             "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.181.77",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "علی بنی اسد",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "38.54.75.90",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "علی جلیلی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-    {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "37.120.145.62",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "رامین فاتحی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "37.120.145.60",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "رامین کرمی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "45.12.221.187",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "سینا ملایری",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "45.12.221.187",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "ساسان قربانی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "139.84.227.242",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "مهدی فرحانی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.181.74",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "اسماعیل مولودی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.181.69",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "محمد شریعتی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "37.120.145.61",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "افشین آشام",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.181.76",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "مائده جوانفر",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "45.12.221.188",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "شاهو خضری",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.181.68",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "کبری شیخ سقا",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.181.66",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "زانیار ابوبکری",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.181.67",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "کیوان درویشی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "45.12.221.186",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "امین معرفت",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "45.12.221.190",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "محمد لطف‌اللهی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "45.12.221.189",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "مهرشاد شهیدی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.182.187",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "فریدون فرجی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "185.237.97.215",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "فرشته احمدی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.182.178",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "مطلب سعید پیرو",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.182.180",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "صدف موحدی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.182.180",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "سارینا ساعدی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.182.188",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "حنانه کیا",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.36.101",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "محمدصدیق نارویی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.36.99",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "سدیس کشانی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.36.117",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "عبدالله نارویی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.36.116",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "موسی آنشینی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.36.100",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "ابراهیم گرگیج",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.36.115",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "ابوبکر علیزهی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.36.114",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "محراب دولت‌ پناه",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.36.98",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "امیرمهدی فرخی‌پور",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "37.0.12.103",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "محسن محمدی کوچکسرایی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "37.0.12.78",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "محمد زارعی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
+            "username": "wearestandtelegram@gmail.com1"
         },
 
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.182.189",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "ستایش شریفی نیا",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "217.138.202.236",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "رضا رسایی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.182.186",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "مجید کاظمی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.182.179",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "‌محبت مظفری",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "217.138.202.250",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "مریم آروین",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "217.138.202.234",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "نرگس خرمی فرد",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "217.138.202.243",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "امیر حسین شمس",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.182.181",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "ابوالفضل آدینه زاده",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "185.125.169.171",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "امیرجواد اسعد زاده",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.192.205",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "علی مظفری",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "217.138.202.251",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "مهدی ببرنژاد",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "217.138.202.252",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "‌حسن ناصری خور",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "217.138.202.241",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "محمد قاسمی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "217.138.202.228",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "مجیدرضا رهنورد",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "217.138.202.247",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "سعید اسعدی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "217.138.202.253",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "شعیب حیدری",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "217.138.202.246",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "آرش پهلوان",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "217.138.202.238",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "مسعود بلوچ",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "217.138.202.227",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "امیر نظافت",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.192.202",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "آتوسا استادی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "217.138.202.240",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "محمد خلیلی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.192.203",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "علی اکبر حیدرزاده",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "217.138.202.237",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "امیرمهدی حسنی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "217.138.202.242",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "امیرحسین مصدق شریف پور",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-  {
-            "headers": {
-                "Host": [
-                    "https://stream.meet.google.com"
-                ]
-            },
-            "password": "0067AD9A-7DC8-215C-4AF9-62648743C931",
-            "path": "",
-            "server": "146.70.192.204",
-            "server_port": 7070,
-            "domain_strategy": "",
-            "tag": "مریم غواصی",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com"
-            },
-            "type": "http",
-            "username": "wearestandtelegram@gmail.com"
-        },
-{
+    {
       "type": "direct",
       "tag": "direct"
     }
   ],
-    "route": {
-     "rules": [
+  "route": {
+    "rules": [
       {
         "inbound": "tun-in",
         "action": "sniff"
@@ -2071,7 +550,7 @@
       },
       {
         "clash_mode": "Global",
-        "outbound": "رضا شاه روحت شاد"
+        "outbound": "زن زندگی آزادی"
       },
       {
         "clash_mode": "Direct",
@@ -2097,7 +576,7 @@
       
       {
         "ip_cidr": "10.10.34.0/24",
-        "outbound": "رضا شاه روحت شاد"
+        "outbound": "زن زندگی آزادی"
       },
       {
         "ip_is_private": true,
@@ -2106,22 +585,13 @@
     ],
     "rule_set": [
       
-   
-      
     ],
-      "final": "تظاهرات سراسری",
-      "auto_detect_interface": true,
-      "override_android_vpn": true
-    },
-    "experimental": {
-      "cache_file": {
-        "enabled": true,
-        "path": "cache.db",
-        "store_fakeip": true
-      },
-      "clash_api": {
-        "default_mode": "@Wearestand 👈🏻کانال تلگرام"
-      }
+    "final": "زن زندگی آزادی",
+    "auto_detect_interface": true
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true
     }
   }
-  
+}
